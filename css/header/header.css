@@ -25,6 +25,12 @@ header {
   }
 }
 
+@media (max-width: 768px) {
+  .headerText {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 480px) {
   .headerText {
     font-size: 14px;
