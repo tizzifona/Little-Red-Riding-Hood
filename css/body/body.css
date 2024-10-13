@@ -40,3 +40,38 @@
   font-family: "Dancing Script", cursive;
   font-size: 64px;
 }
+
+@media (max-width: 480px) {
+  .story {
+    width: 80%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .story:nth-child(even),
+  .story:nth-child(odd) {
+    text-align: center;
+  }
+
+  .story:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .mainTitle {
+    font-size: 30px;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .secondTitle {
+    font-size: 30px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .storyText {
+    font-size: 12px;
+    width: 90%;
+  }
+}

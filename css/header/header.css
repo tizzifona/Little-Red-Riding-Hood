@@ -6,6 +6,7 @@ header {
   text-align: center;
   margin-top: 0;
   height: 80px;
+  width: 100vw;
   -webkit-box-shadow: 0px 10px 15px -4px rgba(71, 68, 66, 0.62);
   -moz-box-shadow: 0px 10px 15px -4px rgba(71, 68, 66, 0.62);
   box-shadow: 0px 10px 15px -4px rgba(71, 68, 66, 0.62);
@@ -16,4 +17,20 @@ header {
   font-family: "Dancing Script", cursive;
   font-size: 56px;
   color: #f5f5f1;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .headerText {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .headerText {
+    font-size: 14px;
+    width: 200px;
+  }
+  header {
+    margin-bottom: 20px;
+  }
 }

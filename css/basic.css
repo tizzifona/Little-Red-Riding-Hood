@@ -6,7 +6,8 @@ body {
 
 .mainContainer {
   font-family: "Afacad Flux", sans-serif;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   font-size: 32px;
   line-height: 1.8;
   margin: 0 auto;
