@@ -1,0 +1,42 @@
+.story {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #474442;
+  border-radius: 2%;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: white;
+}
+
+.story:nth-child(even) {
+  text-align: right;
+}
+
+.story:nth-child(odd) {
+  text-align: left;
+}
+
+.storyImgBox {
+  width: 40%;
+}
+
+.storyImg {
+  object-fit: cover;
+  width: 100%;
+}
+
+.storyText {
+  width: 40%;
+}
+
+.mainTitle {
+  font-family: "Dancing Script", cursive;
+  font-size: 72px;
+  color: #c23b26;
+}
+
+.secondTitle {
+  font-family: "Dancing Script", cursive;
+  font-size: 64px;
+}
